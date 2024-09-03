@@ -16,7 +16,9 @@ This project demonstrates face and eye detection in images using OpenCV's Haar c
    pip install numpy opencv-python
    ```
 3. Usage
-    - Save the script below as 
+
+   - Save the script below as
+
    ```code.py:
    import numpy as np
    import cv2
@@ -57,16 +59,23 @@ This project demonstrates face and eye detection in images using OpenCV's Haar c
 
    ```
 
-2. Make sure the paths to the Haar cascade XML files and the image file are correct.
-3. Run the script:
-    ```bash
-    python code.py
-    ```
-4. The program will display the image with detected faces and eyes outlined in rectangles. Press the 'e' key to exit the program.
+4. Make sure the paths to the Haar cascade XML files and the image file are correct.
+5. Run the script:
+   ```bash
+   python code.py
+   ```
+6. The program will display the image with detected faces and eyes outlined in rectangles. Press the 'e' key to exit the program.
 
 ## Notes
+
 - Ensure that the paths to the Haar cascade files and the image file are correctly set in the script.
 - The default paths in the script are for Windows. Adjust them if you are using a different operating system.
+
+## Results
+
+- The following are the results of the program that has been executed with the python code.py command resulting in:
+
+![Results](img/barack-obama-face-and-eye-detection.png)
 
 ## Conclusion
 
